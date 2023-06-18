@@ -1,4 +1,4 @@
-import ExpenseItem from './components/Expenseitem';
+import ExpenseItem from './components/ExpenseItem';
 
 
 function App() {
@@ -47,7 +47,6 @@ function App() {
       amount={expenses[3].amount}
       date={expenses[3].date}>
       </ExpenseItem>
-
     </div>
   );
 }
